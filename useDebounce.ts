@@ -12,7 +12,7 @@ export const useDebounce = (func: (...args: any) => any, waitFor: number) => {
 
 
 /////Simple example:
-In the example we have simle input that will console log the value after 1 second after the user stop typing
+// In the example we have simle input that will console log the value after 1 second after the user stop typing
 
 //   const SimpleExample = () => {
 //     const myDebouncingFunc = useDebounce((value: string) => {
