@@ -10,6 +10,15 @@ useDebounce takes 2 parameters
 - func: callback function
 - waitFor: number of milliseconds to wait
 
+## How to use
+Import the useDebounce.ts file to your project
+then you can use it like
+```typescript
+const myDebouncingFunc = useDebounce((args:any) => {
+    doSomeStuff(args);
+  }, 1000);
+```
+
 
 
 ## Usage example
